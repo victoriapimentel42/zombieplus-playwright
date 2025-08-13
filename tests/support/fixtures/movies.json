@@ -1,0 +1,84 @@
+{
+ 
+    "create": {
+      "title": "Guerra Mundial Z",
+      "overview": "Um ex-investigador da ONU percorre o mundo tentando encontrar a origem de uma pandemia zumbi.",
+      "company": "Paramount Pictures",
+      "release_year": 2013,
+      "featured": false,
+      "cover": "/images/world-war-z.png"
+    },
+    "madrugada_dos_mortos": {
+      "title": "Madrugada dos Mortos",
+      "overview": "Um grupo de sobreviventes se refugia em um shopping durante um apocalipse zumbi.",
+      "company": "Universal Pictures",
+      "release_year": 2004,
+      "featured": false,
+      "cover": "/images/dawn-of-the-dead.png"
+    },
+    "exterminio": {
+      "title": "Extermínio",
+      "overview": "Vinte e oito dias após um vírus mortal devastar a Grã-Bretanha, um grupo tenta sobreviver.",
+      "company": "Fox Searchlight Pictures",
+      "release_year": 2002,
+      "featured": false,
+      "cover": "/images/28-days-later.png"
+    },
+    "resident_evil": {
+      "title": "Resident Evil: O Hóspede Maldito",
+      "overview": "Alice enfrenta zumbis e monstros após um vírus vazar de um laboratório subterrâneo.",
+      "company": "Screen Gems",
+      "release_year": 2002,
+      "featured": false,
+      "cover": "/images/resident-evil-1.png"
+    },
+    "zumbilandia": {
+      "title": "Zumbilândia",
+      "overview": "Em um mundo dominado por zumbis, quatro sobreviventes formam uma aliança improvável.",
+      "company": "Columbia Pictures",
+      "release_year": 2009,
+      "featured": false,
+      "cover": "/images/zombieland.png"
+    },
+    "meu_namorado_e_um_zumbi": {
+      "title": "Meu Namorado é um Zumbi",
+      "overview": "Um zumbi começa a recuperar sua humanidade após se apaixonar por uma humana.",
+      "company": "Summit Entertainment",
+      "release_year": 2013,
+      "featured": false,
+      "cover": "/images/warm-bodies.png"
+    },
+    "noite_dos_mortos_vivos": {
+      "title": "A Noite dos Mortos-Vivos",
+      "overview": "Clássico do terror onde os mortos ressuscitam e cercam uma casa com sobreviventes.",
+      "company": "Image Ten",
+      "release_year": 1968,
+      "featured": false,
+      "cover": "/images/night-of-the-living-dead.png"
+    },
+    "invasao_zumbi": {
+      "title": "Invasão Zumbi",
+      "overview": "Passageiros lutam por suas vidas em um trem durante um surto zumbi na Coreia do Sul.",
+      "company": "Next Entertainment World",
+      "release_year": 2016,
+      "featured": false,
+      "cover": "/images/train-to-busan.png"
+    },
+    "todo_mundo_quase_morto": {
+      "title": "Todo Mundo Quase Morto",
+      "overview": "Um grupo de amigos tenta sobreviver a um apocalipse zumbi com bom humor britânico.",
+      "company": "Universal Pictures",
+      "release_year": 2004,
+      "featured": false,
+      "cover": "/images/shaun-of-the-dead.png"
+    },
+    "o_exercito_dos_mortos": {
+      "title": "O Exército dos Mortos",
+      "overview": "Durante um surto zumbi em Las Vegas, um grupo tenta realizar um roubo épico.",
+      "company": "Netflix",
+      "release_year": 2021,
+      "featured": false,
+      "cover": "/images/army-of-the-dead.png"
+    }
+  }
+

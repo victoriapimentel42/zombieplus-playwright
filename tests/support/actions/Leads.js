@@ -1,7 +1,7 @@
 
 import {expect } from '@playwright/test';
 
-export class LandingPage{
+export class Leads{
 
     constructor(page){
         this.page = page;
@@ -32,7 +32,7 @@ export class LandingPage{
 
 
 
-    async alertHaveText(target){
-          await expect(this.page.locator('.alert')).toHaveText(target);
-    }
+    // async alertHaveText(target){
+    //       await expect(this.page.locator('.alert')).toHaveText(target);
+    // }
 }

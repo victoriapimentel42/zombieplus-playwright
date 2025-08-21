@@ -1,0 +1,80 @@
+{
+    "create": {
+        "title": "Black Summer",
+        "overview": "Durante os primeiros dias do apocalipse, uma mãe é separada da filha e precisa enfrentar os mortos-vivos.",
+        "company": "Netflix",
+        "release_year": 2019,
+        "featured": false,
+        "cover": "/covers/tvshows/blacksummers.jpg",
+        "seasons": "2"
+    },
+    "duplicate": {
+        "title": "Kingdom",
+        "overview": "Na Coreia medieval, uma misteriosa praga transforma os mortos em monstros, e um príncipe luta para salvar seu povo.",
+        "company": "Netflix",
+        "release_year": 2019,
+        "featured": false,
+        "cover": "/covers/tvshows/kingdom.jpg",
+        "seasons": "3"
+    },
+    "to_remove": {
+        "title": "All of Us Are Dead",
+        "overview": "Estudantes presos em uma escola lutam para sobreviver a um surto zumbi que se espalha rapidamente.",
+        "company": "Netflix",
+        "release_year": 2022,
+        "featured": false,
+        "cover": "/images/all-of-us-are-dead.png",
+        "seasons": 1
+    },
+    
+    "search": {
+        "input": "Walking",
+        "outputs": [
+            "The Walking Dead",
+            "Fear the Walking Dead",
+            "The Walking Dead: World Beyond"
+        ],
+        "data": [
+            {
+                "title": "The Walking Dead",
+                "overview": "Após um apocalipse zumbi, um grupo de sobreviventes luta para permanecer vivo em um mundo devastado.",
+                "company": "Universal Pictures",
+                "release_year": 2010,
+                "featured": false,
+                "cover": "/images/the-walking-dead.png",
+                "seasons": "11"
+            },
+            {
+                "title": "Fear the Walking Dead",
+                "overview": "Uma família tenta sobreviver ao início do apocalipse zumbi na Califórnia.",
+                "company": "Universal Pictures",
+                "release_year": 2015,
+                "featured": false,
+                "cover": "/images/fear-the-walking-dead.png",
+                "seasons": "8"
+            },
+            {
+                "title": "The Walking Dead: World Beyond",
+                "overview": "Uma nova geração de jovens explora um mundo dominado por zumbis e enfrenta seu passado.",
+                "company": "Universal Pictures",
+                "release_year": 2020,
+                "featured": false,
+                "cover": "/images/world-beyond.png",
+                "seasons": "2"
+            }
+        ]
+    },
+
+    "unregistered_search": {
+        "input": "teste",
+        "data": {
+            "title": "Z Nation",
+            "overview": "Três anos após o apocalipse, um grupo transporta o único sobrevivente imune ao vírus zumbi pelos EUA.",
+            "company": "Sony Pictures",
+            "release_year": 2014,
+            "featured": false,
+            "cover": "/images/z-nation.png",
+            "seasons": "5"
+        }
+    }
+}

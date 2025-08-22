@@ -17,8 +17,8 @@ export class Series{
 
     async goPageSeries(){
         await this.page.locator('a[href$="tvshows"]').click()
-        const subTitle = await this.page.getByRole('heading', { level: 1, name: 'Séries de TV' });
-        await expect(subTitle).toBeVisible()
+        const subtitle = await this.page.getByRole('heading', { level: 1, name: 'Séries de TV' })
+        await expect(subtitle).toBeVisible()
     }
 
     async create(serie){

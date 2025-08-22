@@ -65,6 +65,17 @@ export class Api {
         expect(response.ok()).toBeTruthy()
     }
 
+    async postLead(name, email){
+        const newLead = await this.request.post('http://localhost:3333/leads', {
+            data: {
+                name: name,
+                email: email
+            }
+        })
+
+          expect(newLead.ok()).toBeTruthy()
+    }
+
     async postSerie(serie) {
         const companyId = await this.getCompanyIdByName(serie.company)
 

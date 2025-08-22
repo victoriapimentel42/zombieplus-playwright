@@ -34,7 +34,6 @@ test('Deve poder remover um filme', async ({page,request}) => {
 
 })
 
-
 test('Não deve cadastrar quando os campos obrigatórios não são preenchidos', async ({ page }) => {
 
     await page.login.do('admin@zombieplus.com', 'pwd123', 'Admin')
@@ -52,6 +51,9 @@ test('Não deve cadastrar com titulo duplicado', async ({ page, request }) => {
     await request.api.postMovie(movie)
 
     await page.login.do('admin@zombieplus.com', 'pwd123', 'Admin')
+
+    
+
     await page.movies.create(movie)
     await page.popup.haveText(`O título '${movie.title}' já consta em nosso catálogo. Por favor, verifique se há necessidade de atualizações ou correções para este item.`)
 })
@@ -65,7 +67,7 @@ test('Deve realizar busca pelo termo zumbi', async ({page, request}) => {
     })
 
     await page.login.do('admin@zombieplus.com', 'pwd123', 'Admin')
-
+    
     await page.movies.search(movies.input)
     await page.movies.tableHave(movies.outputs)
 })

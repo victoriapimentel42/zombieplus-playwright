@@ -30,9 +30,26 @@ export class Leads{
             console.log(content);*/  //gambiarra para conseguir ter acesso ao codigo do toast
     }
 
+    async goPageLeads(){
+        await this.page.locator('a[href$="leads"]').click()
+        const subtitle = await this.page.getByRole('heading', {level: 1, name: 'Gestão de leads'})
+        await expect(subtitle).toBeVisible()
+    }
+
+    async search(target){
+        await this.page.getByPlaceholder('Busque pelo email').fill(target)
+        await this.page.locator('.actions button').click()
+    }
+
+    async tableHave(content) {
+        const rows = this.page.getByRole('row')
+        await expect(rows).toContainText(content)
+    }
+
+    async remove(email){
+        await this.page.getByRole('row', { name: email }).getByRole('button').click()
+        await this.page.click('.confirm-removal')
+    }
 
 
-    // async alertHaveText(target){
-    //       await expect(this.page.locator('.alert')).toHaveText(target);
-    // }
 }

@@ -8,7 +8,7 @@ export class Leads{
     }
 
     async visit(){
-        await this.page.goto('http://localhost:3000')
+        await this.page.goto('/')
     }
 
     async openLeadModal(){
@@ -25,9 +25,8 @@ export class Leads{
 
         await this.page.getByTestId('modal').getByText('Quero entrar na fila!').click();
 
-         /*await page.getByText('seus dados conosco').click();
-            const content = await page.content();
-            console.log(content);*/  //gambiarra para conseguir ter acesso ao codigo do toast
+            // const content = await page.content();
+            // console.log(content);
     }
 
     async goPageLeads(){

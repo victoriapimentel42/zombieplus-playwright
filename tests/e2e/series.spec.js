@@ -41,7 +41,7 @@ test('Não deve cadastrar quando os campos obrigatórios não são preenchidos',
 
 })
 
-test('Deve poder remover um filme', async({page, request}) => {
+test('Deve poder remover uma serie', async({page, request}) => {
 
     const serie = data.to_remove
     await request.api.postSerie(serie)
